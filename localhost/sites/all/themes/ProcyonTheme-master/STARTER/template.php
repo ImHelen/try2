@@ -1,0 +1,4 @@
+<?php
+/**
+ * Drupal hooks
+ */

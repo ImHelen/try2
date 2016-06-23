@@ -1,0 +1,43 @@
+name = Procyon
+description = Starter theme for <a href="http://procyon.sl-7.ru" target="_blank">Procyon</a> CSS Framework by <a href="https://github.com/EmperorSAM" target="_blank">SAM</a>.
+package = Core
+core = 7.x
+
+; Add Procyon & your css.
+; stylesheets[all][] = css/procyon.min.css
+
+; If less dev.
+;stylesheets[all][] = less/procyon.less
+
+; Add Procyon & your js.
+; scripts[] = js/procyon.min.js
+
+; Regions.
+regions[navigation] = Navigation bar
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[footer] = Footer
+
+; Modal windows from Procyon
+regions[modal1] = Modal window 1 (#modal1)
+regions[modal2] = Modal window 2 (#modal2)
+
+; Special elements Procyon
+regions[donotgo] = Screen Saver "Do not go"
+
+; This two regions is required by Drupal Core. Don't remove them, they not display in block list.
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+; Set default values for theme-setings.php variables.
+settings[procyon_rebuild_registry] = 0
+settings[procyon_switch_checkboxes] = 1
+settings[procyon_switch_radios] = 1
+settings[procyon_disable_grippie] = 1
+settings[procyon_login_page] = 1
+settings[procyon_error_page] = 1
+settings[procyon_do_not_go] = 1
+settings[procyon_back_to_top] = 1
+settings[procyon_type_table] = 'default'
